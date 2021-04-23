@@ -1,0 +1,29 @@
+Asset: Typey McTypeface Font
+Authors: Paul J. Miller & Dieter Steffmann
+Retrieved From: https://www.dafontfree.net/freefonts-typey-mctypeface-f11185.htm
+License: SIL Open Font License (OFL)
+
+Asset: Futhark - Runic Alphabet
+Author: trekadam30
+Retrieved From: https://fontstruct.com/fontstructions/show/1798722
+License: Creative Commons CC0 Public Domain Dedication license License Link: http://creativecommons.org/publicdomain/zero/1.0/)
+
+Asset: Rune Cards
+Author: Elizabeth J Malia Aanensen Phillips
+Retrieved From: https://www.pinterest.com/pin/530158187379708383/
+License: Unlisted
+
+Asset: The First Knot Image
+Author: Albrecht Durer
+Retrieved From: https://en.m.wikipedia.org/wiki/File:Albrecht_D%C3%BCrer,_The_First_Knot_(with_a_heart-shaped_shield),_probably_1506-1507,_NGA_6718.jpg
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+
+Asset: UI Buttons
+Author: 858Games.com
+Retrieved From: https://opengameart.org/content/ui-buttonspanels-for-unity
+License: CC0
+
+Asset: Wood Texture and Marble Texture
+Author: cc0textures.com
+Retrieved From: https://cc0textures.com/
+License: CC0

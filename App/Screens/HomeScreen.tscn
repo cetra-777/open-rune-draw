@@ -1,0 +1,133 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/UI/whiteNormal.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/whiteDown.png" type="Texture" id=3]
+[ext_resource path="res://Assets/UI/DefaultFont.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Assets/UI/ButtonLabel.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Assets/Images/Albrecht_Dürer,_The_First_Knot.png" type="Texture" id=6]
+
+[node name="HomeScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="TitleVbox" type="VBoxContainer" parent="."]
+margin_left = 47.5
+margin_top = 116.117
+margin_right = 1032.5
+margin_bottom = 251.117
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="TitleLabel" type="Label" parent="TitleVbox"]
+margin_right = 985.0
+margin_bottom = 135.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.313726, 0.235294, 0.129412, 1 )
+text = "Open Rune Draw"
+align = 1
+
+[node name="ButtonVbox" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+margin_top = 374.0
+margin_bottom = 1920.0
+custom_constants/separation = 100
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="KnotMargin" type="MarginContainer" parent="ButtonVbox"]
+margin_right = 1080.0
+margin_bottom = 400.0
+custom_constants/margin_left = 384
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="KnotImage" type="TextureRect" parent="ButtonVbox/KnotMargin"]
+margin_left = 384.0
+margin_right = 1080.0
+margin_bottom = 400.0
+texture = ExtResource( 6 )
+
+[node name="OdinDrawButton" type="TextureButton" parent="ButtonVbox"]
+margin_top = 500.0
+margin_right = 1080.0
+margin_bottom = 628.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 3 )
+
+[node name="OdinDrawLabel" type="Label" parent="ButtonVbox/OdinDrawButton"]
+margin_top = 32.0
+margin_right = 1080.0
+margin_bottom = 96.0
+custom_fonts/font = ExtResource( 5 )
+custom_colors/font_color = Color( 0.384314, 0.243137, 0.0627451, 1 )
+text = "Odin Draw (Single)"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NornirDrawButton" type="TextureButton" parent="ButtonVbox"]
+margin_top = 728.0
+margin_right = 1080.0
+margin_bottom = 856.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 3 )
+
+[node name="NornirDrawLabel" type="Label" parent="ButtonVbox/NornirDrawButton"]
+margin_top = 32.0
+margin_right = 1080.0
+margin_bottom = 96.0
+custom_fonts/font = ExtResource( 5 )
+custom_colors/font_color = Color( 0.384314, 0.243137, 0.0627451, 1 )
+text = "Nornir Draw (Three)"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FlashCardsButton" type="TextureButton" parent="ButtonVbox"]
+margin_top = 956.0
+margin_right = 1080.0
+margin_bottom = 1084.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 3 )
+
+[node name="FlashCardsDrawLabel" type="Label" parent="ButtonVbox/FlashCardsButton"]
+margin_top = 32.0
+margin_right = 1080.0
+margin_bottom = 96.0
+custom_fonts/font = ExtResource( 5 )
+custom_colors/font_color = Color( 0.384314, 0.243137, 0.0627451, 1 )
+text = "Rune Flash Cards"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AboutButton" type="TextureButton" parent="ButtonVbox"]
+margin_top = 1184.0
+margin_right = 1080.0
+margin_bottom = 1312.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 3 )
+
+[node name="AboutLabel" type="Label" parent="ButtonVbox/AboutButton"]
+margin_top = 32.0
+margin_right = 1080.0
+margin_bottom = 100.0
+custom_fonts/font = ExtResource( 5 )
+custom_colors/font_color = Color( 0.384314, 0.243137, 0.0627451, 1 )
+text = "About ORD"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

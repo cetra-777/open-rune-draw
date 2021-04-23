@@ -1,0 +1,31 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Screens/AboutScreen.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Screens/HomeScreen.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Screens/NornirScreen.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Screens/OdinScreen.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Screens/FlashCardScreen.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Assets/Images/BG_Wood.jpg" type="Texture" id=6]
+[ext_resource path="res://Scripts/App.gd" type="Script" id=7]
+
+[node name="App" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 6 )
+centered = false
+
+[node name="HomeScreen" parent="." instance=ExtResource( 2 )]
+visible = false
+
+[node name="OdinScreen" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[node name="NornirScreen" parent="." instance=ExtResource( 3 )]
+visible = false
+
+[node name="FlashCardScreen" parent="." instance=ExtResource( 5 )]
+visible = false
+
+[node name="AboutScreen" parent="." instance=ExtResource( 1 )]
+visible = false
