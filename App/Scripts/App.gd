@@ -8,6 +8,8 @@ onready var about = $AboutScreen
 
 
 func _ready() -> void:
+	randomize()
+	
 	home.visible = true
 	odin.visible = false
 	norn.visible = false
@@ -63,3 +65,6 @@ func _on_BackButton_pressed():
 	norn.visible = false
 	flash.visible = false
 	about.visible = false
+	
+	for stone in odin.find_node("Stones").get_children():
+		stone.find_node("Sprite").set_frame(0)
