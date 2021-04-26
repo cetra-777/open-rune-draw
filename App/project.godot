@@ -12,7 +12,9 @@ config_version=4
 
 config/name="Open Rune Draw"
 run/main_scene="res://Screens/App.tscn"
+run/low_processor_mode=true
 config/icon="res://icon.png"
+config/windows_native_icon="res://Assets/Images/icon.ico"
 
 [display]
 

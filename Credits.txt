@@ -27,3 +27,8 @@ Asset: Wood Texture and Marble Texture
 Author: cc0textures.com
 Retrieved From: https://cc0textures.com/
 License: CC0
+
+Asset: Rune.TTF
+Author: Curtis Clark
+Retrieved From: https://www.dafont.com/elder-futhark.font
+License: Unique (Included in LICENSE.TEXT in /fonts/elder_futhark)

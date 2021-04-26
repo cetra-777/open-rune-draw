@@ -24,6 +24,15 @@ func _ready() -> void:
 	
 	# Odin Screen Buttons
 	odin.find_node("BackButton").connect("pressed", self, "_on_BackButton_pressed")
+	
+	#Nornir Screen Buttons
+	norn.find_node("BackButton").connect("pressed", self, "_on_BackButton_pressed")
+	
+	#Flash Screen Buttons
+	flash.find_node("BackButton").connect("pressed", self, "_on_BackButton_pressed")
+	
+	#About Screen Buttons
+	about.find_node("BackButton").connect("pressed", self, "_on_BackButton_pressed")
 
 
 func _on_OdinDrawButton_pressed():
@@ -65,6 +74,3 @@ func _on_BackButton_pressed():
 	norn.visible = false
 	flash.visible = false
 	about.visible = false
-	
-	for stone in odin.find_node("Stones").get_children():
-		stone.find_node("Sprite").set_frame(0)
